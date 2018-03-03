@@ -1,6 +1,6 @@
 # GemsAssetsWebpackBridge
 
-This Rails gem helps to create a bridge between assets in your ruby gems and [Webpack](https://webpack.js.org/).
+This Rails gem helps to build a bridge from assets in your ruby gems to [Webpack](https://webpack.js.org/).
 
 ![pexels-photo-208684](https://user-images.githubusercontent.com/496713/36936816-18261a9c-1f1b-11e8-9c46-6b6d830fed2c.jpeg)
 
@@ -29,7 +29,7 @@ $ bundle
 
 ## Usage
 
-Create a bridge between Rails gems and Webpack:
+Build a bridge between Rails gems and Webpack:
 
 ```ruby
 rake gems_asstes_webpack_bridge:build
