@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{The Bridge between Rails gems and Webpack}
   spec.description   = %q{Helps to make visible Rails gems's assets in Webpack}
-  spec.homepage      = "https://github.com/the-teacher"
+  spec.homepage      = "https://github.com/the-teacher/GemsAssetsWebpackBridge"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
