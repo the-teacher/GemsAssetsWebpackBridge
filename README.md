@@ -32,7 +32,7 @@ $ bundle
 Create a bridge between Rails gems and Webpack:
 
 ```ruby
-rake gems_asstes_webpack_bridge:create
+rake gems_asstes_webpack_bridge:build
 ```
 
 ### What is The Bridge?
@@ -130,11 +130,11 @@ end
 
 ### Should I add the bridge file in my VCS?
 
-No. Paths will be different for different users. Just add `gems-assets-webpack-bridge.json` in your `.gitignore` and run `rake gems_asstes_webpack_bridge:create` when you need it.
+No. Paths will be different for different users. Just add `gems-assets-webpack-bridge.json` in your `.gitignore` and run `rake gems_asstes_webpack_bridge:build` when you need it.
 
 ### Should I change my deployment process?
 
-You have to run `rake gems_asstes_webpack_bridge:create` before every Webpack compilation during deployment. Otherwise Webpack will know nothing about aliases and a compilation won't work.
+You have to run `rake gems_asstes_webpack_bridge:build` before every Webpack compilation during deployment. Otherwise Webpack will know nothing about aliases and a compilation won't work.
 
 ### License
 

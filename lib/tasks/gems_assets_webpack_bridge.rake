@@ -2,7 +2,7 @@ require 'json'
 
 # rake gems_assets_webpack_bridge:create
 namespace :gems_assets_webpack_bridge do
-  task create: :environment do
+  task build: :environment do
     assets_types = GemsAssetsWebpackBridge.config.assets_types
     bridge_path = GemsAssetsWebpackBridge.config.bridge_path
 
@@ -24,7 +24,7 @@ namespace :gems_assets_webpack_bridge do
       file.write JSON.pretty_generate(bridge)
     end
 
-    puts "GemsAssetsWebpackBridge"
+    puts "GemsAssetsWebpackBridge:"
     puts "The bridge-file is created: #{bridge_file}"
   end
 end
