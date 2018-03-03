@@ -58,7 +58,7 @@ rake gems_asstes_webpack_bridge:build
 
 ### How to use The Bridge?
 
-Now, when you the bridge file, you can use it in Webpack like this:
+Now, when you have the bridge file, you can use it in Webpack like this:
 
 **webpack.config.js**
 
