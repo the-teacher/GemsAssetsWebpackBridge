@@ -32,7 +32,7 @@ $ bundle
 Build a bridge between Rails gems and Webpack:
 
 ```ruby
-rake gems_asstes_webpack_bridge:build
+rake gems_assets_webpack_bridge:build
 ```
 
 ### What is The Bridge?
